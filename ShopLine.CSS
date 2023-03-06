@@ -1,0 +1,123 @@
+.main{
+    width: 1920px;
+    height: 680px; 
+    background: #EBF1F8; 
+}
+.sl-login{
+    margin-right: 30px;
+    margin-bottom: 0;
+    background-color: transparent;
+    color: #052855;
+    width: auto;
+    height: auto;
+}
+sl-header sl-width{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 122px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #EBF1F8;
+    z-index: 14;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: .3s height;
+}
+.sl-head{
+    background-color: #EBF1F8;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 87.5%;
+    margin: auto;
+    width: 1071px;
+    height: 25.2;
+    text-align: right;
+    padding: 0;
+}
+.sl-head a{
+    font-weight: 500;
+    text-decoration:none;
+}
+.sl-login{
+    margin-right: 30px;
+    margin-bottom: 0;
+    background-color: transparent;
+    color: #052855;
+    width: auto;
+    height: auto;
+}
+.sl-lang{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}         
+.sl-lang .sl-btn{
+    width: auto;
+    height: auto;
+    color: #052855;
+}
+.slcon-language{
+    margin-right: 9px;
+    font-family: 'icomoon3' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.sl-logo{
+    width:160px;
+    line-height: 0;
+}
+.sl-head-panel{
+    flex: 1;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 48px;
+height: auto;
+font-size: 100%;
+overflow: visible;
+list-style: none;
+}
+.sl-trial{
+    font-weight: bold;
+}
+.sl-head-panel .sl-btn{
+    background-color: #0061FF;
+    height: 48px;
+    width: 144px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: .3s all;
+}
+.sl-ham {
+    width: 30px;
+    height: 19px;
+    position: relative;
+    cursor: pointer;
+}
+.sl-kv{
+    align-items: center;
+}
+.sl-kv .sl-info{
+    padding-bottom: 64px;
+}
+h1{
+    font-size: 250%;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.sl-kv p{
+    font-size: 112.5%;
+    color: #5D6A7A;
+    margin-bottom: 24px;
+}
